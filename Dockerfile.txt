@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-COPY . .
+COPY Mirae_Bank_Final_Project .
 
 RUN apt-get update && apt-get install -y maven
 
